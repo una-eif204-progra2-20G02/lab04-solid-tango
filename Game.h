@@ -12,7 +12,6 @@ public:
 
     Game(const std::string &name, double price, double tax);
 
-
     const std::string &getName() const;
 
     void setName(const std::string &name);
@@ -37,14 +36,13 @@ public:
 
     void save(const std::string &filename);
 
-    std::string toString();
+    virtual std::string toString();
 
 protected:
     std::string name;
     double price;
     double tax;
-    double itemWeight;
-    std::string productDimensions;
+
 };
 
 

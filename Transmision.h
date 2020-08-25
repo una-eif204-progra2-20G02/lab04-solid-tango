@@ -5,9 +5,19 @@
 #ifndef LAB04_SOLID_TRANSMISION_H
 #define LAB04_SOLID_TRANSMISION_H
 
+#include "Game.h"
+#include <iostream>
+#include <string>
 
-class Transmision {
+using namespace std;
 
+class Transmision: public Game{
+
+public:
+    Transmision(string, double, double);
+    ~Transmision();
+    string reemplazo();
+    virtual std::string toString();
 };
 
 
