@@ -27,7 +27,7 @@ public:
     Game* getGame();
     void addGame(Game*);
     void addTicket(Ticket*);
-
+    string getListTickets();
 
     ~Empresa();
 

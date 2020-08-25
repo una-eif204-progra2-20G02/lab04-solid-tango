@@ -29,4 +29,16 @@ void Empresa::addTicket(Ticket* ticket)
 {
     ticketList.push_back(ticket);
 }
+
+string Empresa::getListTickets()
+{
+    stringstream s;
+    for(int i=0; i< ticketList.size();i++)
+    {
+        s<<ticketList[i]->toString()<<endl;
+    }
+    return s.str();
+}
+
+
 Empresa::~Empresa(){}
