@@ -17,7 +17,7 @@ public:
     Transmision(string, double, double);
     ~Transmision();
     string reemplazo();
-    virtual std::string toString();
+  //  virtual std::string toString();
 };
 
 

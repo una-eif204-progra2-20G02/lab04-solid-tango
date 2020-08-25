@@ -24,12 +24,6 @@ public:
 
     void setTax(double tax);
 
-    double getItemWeight() const;
-
-    void setItemWeight(double itemWeight);
-
-    const std::string &getProductDimensions() const;
-
     void setProductDimensions(const std::string &productDimensions);
 
     double calculatePriceWithTax();

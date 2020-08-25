@@ -11,9 +11,10 @@ using namespace std;
 class Digital: public Game {
     Digital(string , double , double);
 
-    double descuento();
+    double calcularDescuento();
+
     string remplazarProducto();
-    string toString() override;
+    string toString() ;
 };
 
 

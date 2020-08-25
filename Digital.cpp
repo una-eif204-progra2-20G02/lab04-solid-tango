@@ -9,7 +9,7 @@ Game(name,price,tax){
 
 }
 
-double Digital::descuento() {
+double Digital::calcularDescuento() {
     return price * 0.15;
 }
 
@@ -19,6 +19,6 @@ string Digital::remplazarProducto() {
 string Digital::toString() {
     stringstream  s;
 
-    s<<"Precio con descuento: "<<price - descuento()<<endl;
-    return s.str;
+    s<<"Precio con descuento: "<<price - calcularDescuento()<<endl;
+    return s.str();
 }
