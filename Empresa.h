@@ -7,6 +7,7 @@
 #include "Game.h"
 #include <sstream>
 #include "Ticket.h"
+#include <vector>
 
 using namespace std;
 class Empresa{
@@ -14,14 +15,18 @@ private:
     Game *game;
     Ticket * ticket;
     string name;
-
+    vector<Game*>gameList;
+    vector<Ticket*>ticketList;
 
 public:
     Empresa();
+    Empresa(Ticket *);
     void setName(string);
     string getName();
-    string toString();
-
+    Ticket* getTicket();
+    Game* getGame();
+    void addGame(Game*);
+    void addTicket(Ticket*);
 
     ~Empresa();
 
