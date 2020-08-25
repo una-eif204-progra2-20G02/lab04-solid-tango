@@ -6,12 +6,13 @@
 #define LAB04_SOLID_EMPRESA_H
 #include "Game.h"
 #include <sstream>
-//#include "Ticket.h"
+#include "Ticket.h"
 
 using namespace std;
 class Empresa{
 private:
     Game *game;
+    Ticket * ticket;
     string name;
 
 
