@@ -2,8 +2,8 @@
 // Created by mendo on 24/8/2020.
 //
 
-#ifndef LAB04_SOLID_FISICO_H
-#define LAB04_SOLID_FISICO_H
+#ifndef LAB04_SOLID_PHYSICALGAME_H
+#define LAB04_SOLID_PHYSICALGAME_H
 
 #include <iostream>
 #include <string>
@@ -11,14 +11,14 @@
 
 using namespace std;
 
-class Fisico: public Game{
+class PhysicalGame: public Game{
 private:
     double itemWeight;
     string productDimensions;
 public:
 
-    Fisico(string, double , double, double, string);
-    ~Fisico();
+    PhysicalGame(string, double , double, double, string);
+    ~PhysicalGame();
     string envio();
     virtual string toString();
 
@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //LAB04_SOLID_FISICO_H
+#endif //LAB04_SOLID_PHYSICALGAME_H

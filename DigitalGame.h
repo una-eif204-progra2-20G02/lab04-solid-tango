@@ -2,14 +2,14 @@
 // Created by mendo on 24/8/2020.
 //
 
-#ifndef LAB04_SOLID_DIGITAL_H
-#define LAB04_SOLID_DIGITAL_H
+#ifndef LAB04_SOLID_DIGITALGAME_H
+#define LAB04_SOLID_DIGITALGAME_H
 #include <iostream>
 #include "Game.h"
 using namespace std;
 
-class Digital: public Game {
-    Digital(string , double , double);
+class DigitalGame: public Game {
+    DigitalGame(string , double , double);
 
     double calcularDescuento();
 
@@ -18,4 +18,4 @@ class Digital: public Game {
 };
 
 
-#endif //LAB04_SOLID_DIGITAL_H
+#endif //LAB04_SOLID_DIGITALGAME_H
