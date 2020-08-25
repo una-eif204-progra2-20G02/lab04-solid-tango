@@ -20,5 +20,5 @@ string Digital::toString() {
     stringstream  s;
 
     s<<"Precio con descuento: "<<price - descuento()<<endl;
-    return s.str;
+    return s.str();
 }
