@@ -28,6 +28,7 @@ public:
     void addGame(Game*);
     void addTicket(Ticket*);
 
+
     ~Empresa();
 
 
