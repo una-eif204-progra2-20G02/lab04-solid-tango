@@ -14,6 +14,7 @@ private:
     Game *game;
     string name;
 
+
 public:
     Empresa();
     void setName(string);
