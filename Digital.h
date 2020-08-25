@@ -4,9 +4,15 @@
 
 #ifndef LAB04_SOLID_DIGITAL_H
 #define LAB04_SOLID_DIGITAL_H
+#include <iostream>
+#include "Game.h"
+using namespace std;
 
+class Digital: public Game {
+    Digital(string , double , double);
 
-class Digital {
+    double descuento();
+    string remplazarProducto();
 
 };
 

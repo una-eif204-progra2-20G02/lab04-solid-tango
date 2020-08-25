@@ -3,3 +3,16 @@
 //
 
 #include "Digital.h"
+
+Digital::Digital(string name, double price, double tax):
+Game(name,price,tax){
+
+}
+
+double Digital::descuento() {
+    return price * 0.15;
+}
+
+string Digital::remplazarProducto() {
+    return "Este producto tendrá un reemplazo";
+}

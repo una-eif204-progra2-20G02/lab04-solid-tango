@@ -38,7 +38,8 @@ public:
     void save(const std::string &filename);
 
     std::string toString();
-private:
+
+protected:
     std::string name;
     double price;
     double tax;
