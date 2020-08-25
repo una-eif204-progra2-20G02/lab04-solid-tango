@@ -13,7 +13,7 @@ class Digital: public Game {
 
     double descuento();
     string remplazarProducto();
-
+    string toString() override;
 };
 
 

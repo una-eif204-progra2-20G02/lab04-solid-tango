@@ -16,3 +16,9 @@ double Digital::descuento() {
 string Digital::remplazarProducto() {
     return "Este producto tendrá un reemplazo";
 }
+string Digital::toString() {
+    stringstream  s;
+
+    s<<"Precio con descuento: "<<price - descuento()<<endl;
+    return s.str;
+}
