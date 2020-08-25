@@ -20,7 +20,7 @@ public:
     Fisico(string, double , double, double, string);
     ~Fisico();
     string envio();
-   // virtual std::string toString();
+    virtual string toString();
 
 
 };

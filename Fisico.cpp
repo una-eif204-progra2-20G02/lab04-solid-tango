@@ -13,3 +13,10 @@ Fisico::~Fisico() {}
 string Fisico::envio() {
     return "Este Producto tendra un envio ";
 }
+
+string Fisico::toString() {
+    stringstream s;
+    s << "Item Weight: "<<itemWeight<<endl;
+    s << "Product Dimensions: "<<productDimensions<<endl;
+    return s.str();
+}
