@@ -4,8 +4,13 @@
 
 #include <iostream>
 #include "Game.h"
+#include "Empresa.h"
 
 int main() {
+    Empresa *empresa();
+
+
+    /*
     Game game;
     game.setName("Call of Duty: Black Ops 4 (PS4)");
 //    game.setItemWeight(0.564);
@@ -15,6 +20,6 @@ int main() {
     std::cout << game.toString() << std::endl;
 
     game.save("game.txt");
-
+*/
     return 0;
 }
