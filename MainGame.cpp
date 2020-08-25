@@ -5,9 +5,15 @@
 #include <iostream>
 #include "Game.h"
 #include "Empresa.h"
+#include"PhysicalGame.h"
 
 int main() {
-    Empresa *empresa();
+
+    PhysicalGame * game1= new PhysicalGame("",4,4,4,"");
+   cout<< game1->toString();
+
+    Ticket *ticket= new Ticket(game1,"");
+    //Empresa *empresa();
 
 
     /*
