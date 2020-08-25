@@ -35,12 +35,6 @@ void Game::setTax(double tax) {
     Game::tax = tax;
 }
 
-
-
-
-
-
-
 double Game::calculatePriceWithTax() {
     return getPrice() + (getPrice() * getTax());
 }
