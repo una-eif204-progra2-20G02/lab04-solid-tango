@@ -9,3 +9,7 @@ Fisico::Fisico(string nombre, double precio, double tax, double _itemWeight, str
 }
 
 Fisico::~Fisico() {}
+
+string Fisico::envio() {
+    return "Este Producto tendra un envio ";
+}

@@ -12,7 +12,6 @@ public:
 
     Game(const std::string &name, double price, double tax);
 
-    Game(const std::string &name, double price, double itemWeight, const std::string &productDimensions);
 
     const std::string &getName() const;
 

@@ -19,6 +19,8 @@ public:
 
     Fisico(string, double , double, double, string);
     ~Fisico();
+    string envio();
+
 
 };
 
